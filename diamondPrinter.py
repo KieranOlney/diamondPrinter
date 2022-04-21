@@ -1,10 +1,9 @@
 import math
 from asyncio.windows_events import NULL
-from sqlite3 import Row
 
 
 def main():
-    print(diamondFormer(21))
+    print(diamondFormer(11))
     return
 
 def diamondFormer(size):
